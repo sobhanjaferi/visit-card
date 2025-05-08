@@ -1,0 +1,139 @@
+@font-face {
+    font-family: iran;
+    src: url(./font/Vazir.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: iran;
+    background-color: #485460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px #c3c3c3;
+    background-color: #636e72;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container:hover{
+    box-shadow: 0px 0px 35px 0px #ffffff;
+    padding: 3px;
+}
+
+.img{
+    margin-top: 7px;
+}
+
+.img img{
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    display: flex;
+    background-size: cover;
+    box-shadow: 0px 0px 15px 5px white;
+}
+
+.text{
+    width: 93%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+.text .self{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    font-size: 1em;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.text .self{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 3px white;
+    color: white;
+    border-radius: 10px;
+}
+
+.text .self .name{
+    border-right: 2px solid white;
+    width: 165px;
+}
+
+.text .ids{
+    /* background-color: red; */
+    width: 100%;
+    border-top: 2px solid white;
+    font-weight: bold;
+}
+
+.text .ids .email , .github , .telegram{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1em;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.text .ids .email li a, .github li a, .telegram li a{
+    transition: 0.5s;
+}
+
+.text .ids .email i, .github i, .telegram i{
+    transition: 0.5s;
+}
+
+.text .ids .email:hover , .github:hover , .telegram:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+.text .ids .email:hover li a, .github:hover li a, .telegram:hover li a{
+    color: white;
+}
+
+.text .ids .email:hover i, .github:hover i, .telegram:hover i{
+    border-color: white;
+}
+
+.text .ids .email i , .github i , .telegram i{
+    padding: 7px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
