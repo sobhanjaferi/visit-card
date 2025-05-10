@@ -27,18 +27,13 @@ body{
     box-shadow: 0px 0px 30px 0px #c3c3c3;
     background-color: #636e72;
     width: 400px;
-    height: 600px;
+    height: 630px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.container:hover{
-    box-shadow: 0px 0px 35px 0px #ffffff;
-    padding: 5px;
 }
 
 .img{
@@ -101,7 +96,7 @@ body{
     font-weight: bold;
 }
 
-.text .ids .email , .github , .telegram{
+.text .ids .email , .github , .telegram , .number{
     /* background-color: red; */
     display: flex;
     flex-direction: row;
@@ -113,12 +108,12 @@ body{
     transition: 0.5s;
 }
 
-.text .ids .email li a, .github li a, .telegram li a{
+.text .ids .email li a, .github li a, .telegram li a , .number li a{
     transition: 0.5s;
     color: white;
 }
 
-.text .ids .email i , .github i , .telegram i{
+.text .ids .email i , .github i , .telegram i , .number i{
     transition: 0.5s;
     padding: 7px;
     border-radius: 100px;
