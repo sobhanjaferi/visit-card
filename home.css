@@ -26,7 +26,7 @@ body{
     border-radius: 50px;
     box-shadow: 0px 0px 30px 0px #c3c3c3;
     background-color: #636e72;
-    width: 370px;
+    width: 350px;
     height: 630px;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body{
 
 .text{
     /* background-color: red; */
-    max-width: 350px;
+    max-width: 340px;
     color: white;
     margin: auto;
     display: flex;
@@ -96,7 +96,7 @@ body{
 .text .ids{
     /* background-color: red; */
     margin: auto;
-    width: 100%;
+    width: 98%;
     border-top: 2px solid white;
     font-weight: bold;
 }
