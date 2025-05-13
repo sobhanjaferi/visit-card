@@ -22,11 +22,11 @@ body{
 }
 
 .container{
-    margin: 0px 0px;
+    margin: auto;
     border-radius: 50px;
     box-shadow: 0px 0px 30px 0px #c3c3c3;
     background-color: #636e72;
-    width: 350px;
+    width: 300px;
     height: 630px;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body{
 
 .text{
     /* background-color: red; */
-    max-width: 340px;
+    width: 85%;
     color: white;
     margin: auto;
     display: flex;
@@ -96,13 +96,14 @@ body{
 .text .ids{
     /* background-color: red; */
     margin: auto;
-    width: 98%;
+    width: 100%;
     border-top: 2px solid white;
-    font-weight: bold;
+    font-size: 1em;
 }
 
 .text .ids .email , .github , .telegram , .number{
     /* background-color: red; */
+    margin: 10px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -114,12 +115,11 @@ body{
 }
 
 .text .ids .email li a, .github li a, .telegram li a , .number li a{
-    transition: 0.5s;
     color: white;
+    /* background-color: red; */
 }
 
 .text .ids .email i , .github i , .telegram i , .number i{
-    transition: 0.5s;
     padding: 7px;
     border-radius: 100px;
     border: 2px solid white;
