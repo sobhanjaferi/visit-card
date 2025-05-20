@@ -14,7 +14,7 @@ a{
 
 body{
     font-family: iran;
-    background-color: #974c1a;
+    background-color: #b0612d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,12 +23,11 @@ body{
 
 .container{
     margin: auto;
-    margin-top: 15px;
     border-radius: 50px;
-    background-color: #dd7621;
-    box-shadow: 0px 0px 20px 3px #c3c3c3;
+    background-color: #d8792b;
+    box-shadow: 0px 0px 20px 3px white;
     width: 300px;
-    height: 555px;
+    height: 545px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
