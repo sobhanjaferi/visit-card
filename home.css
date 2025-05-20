@@ -14,7 +14,7 @@ a{
 
 body{
     font-family: iran;
-    background-color: #485460;
+    background-color: #974c1a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +23,12 @@ body{
 
 .container{
     margin: auto;
+    margin-top: 15px;
     border-radius: 50px;
-    box-shadow: 0px 0px 30px 0px #c3c3c3;
-    background-color: #636e72;
+    background-color: #dd7621;
+    box-shadow: 0px 0px 20px 3px #c3c3c3;
     width: 300px;
-    height: 540px;
+    height: 555px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,7 +44,7 @@ body{
 }
 
 .img img{
-    margin-top: 15px;
+    margin-top: 10px;
     width: 100%;
     border-radius: 300px;
     display: flex;
@@ -95,7 +96,6 @@ body{
 
 .text .ids{
     /* background-color: red; */
-    margin: auto;
     width: 100%;
     border-top: 2px solid white;
     font-size: 1em;
@@ -103,7 +103,7 @@ body{
 
 .text .ids .email , .github , .telegram , .number{
     /* background-color: red; */
-    margin: 10px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
