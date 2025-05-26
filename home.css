@@ -14,7 +14,7 @@ a{
 
 body{
     font-family: iran;
-    background-color: #b0612d;
+    background-color: #636e72;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body{
 .container{
     margin: auto;
     border-radius: 50px;
-    background-color: #d8792b;
+    background-color: #4f585b;
     box-shadow: 0px 0px 20px 3px white;
     width: 300px;
     height: 545px;
