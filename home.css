@@ -1,125 +1,106 @@
 @font-face {
-    font-family: iran;
-    src: url(./font/Vazir.ttf);
+    font-family: container;
+    src: url(./font/vazir-font-v16.1.0/Vazir-Bold.ttf);
 }
-
 *{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
-a{
-    color: black;
-    text-decoration: none;
-}
-
 body{
-    font-family: iran;
-    background-color: #636e72;
+    font-family: container;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    background-color: #222;
 }
-
-.container{
+.conections{
+    position: absolute;
+    padding: 10px;
+    top: 350px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdcb6e;
+    margin-top: 60px;
+}
+#output_conection{
+    color: aqua;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
     margin: auto;
+}
+i{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5em;
     border-radius: 50px;
-    background-color: #4f585b;
-    box-shadow: 0px 0px 20px 3px white;
-    width: 300px;
-    height: 545px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-.img{
-    margin: auto;
-    width: 250px;
-    margin-top: 7px;
-}
-
-.img img{
-    margin-top: 10px;
-    width: 100%;
-    border-radius: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    box-shadow: 0px 0px 10px 2px white;
+    border: 1px solid black;
+    background-color: aquamarine;
     transition: 0.4s;
 }
-
-.img img:hover{
-    padding: 10px;
+i:hover{
+    padding:15px;
+    margin: 5px;
+    background-color: aqua;
 }
-
-.text{
-    /* background-color: red; */
-    width: 85%;
-    color: white;
-    margin: auto;
+.container{
+    margin-top: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1em;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #444;
 }
-
-.text .self{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1em;
-    margin: 15px auto;
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#menu{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: aqua;
+    box-shadow: 0px 0px 7px aqua;
     padding: 10px;
-    /* background-color: red; */
-}
-
-.text .self{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid white;
-    box-shadow: 0px 0px 10px 1px white;
-    color: white;
-    border-radius: 10px;
-}
-
-.text .ids{
-    /* background-color: red; */
-    width: 100%;
-    border-top: 2px solid white;
-    font-size: 1em;
-}
-
-.text .ids .email , .github , .telegram , .number{
-    /* background-color: red; */
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-    font-size: 1em;
-    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
     transition: 0.5s;
+    z-index: 1;
 }
-
-.text .ids .email li a, .github li a, .telegram li a , .number li a{
+#menu:hover{
+    transform: rotate(-30deg);
+    top: 15px;
+    right: 15px;
+}
+.hover{
+    background-color: rgba(0, 0, 0, 0.796);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    display: none;
+}
+p{
+    margin: 20px 20px;
+    direction: ltr;
     color: white;
-    /* background-color: red; */
-}
-
-.text .ids .email i , .github i , .telegram i , .number i{
-    padding: 7px;
-    border-radius: 100px;
-    border: 2px solid white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid aqua;
+    letter-spacing: 1px;
 }
