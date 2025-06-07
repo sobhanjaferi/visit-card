@@ -1,14 +1,17 @@
-let hoverBtn = document.querySelector("#menu");
+let menu = document.querySelector("#menu");
+let closeMenu = document.getElementById("close_menu");
 let hoverDiv = document.querySelector(".hover");
 
-hoverBtn.addEventListener("click",()=>{
+menu.addEventListener("click",()=>{
     hoverDiv.style.display = "block"
-    hoverBtn.style.transform = "rotate(-30deg)"
-
-    hoverBtn.addEventListener("click",()=>{
-    hoverDiv.style.display = "none"
-    hoverBtn.style.transform = "rotate(0deg)"
+    menu.style.display = "none"
+    closeMenu.style.display = "block";
 })
+
+closeMenu.addEventListener("click",()=>{
+    hoverDiv.style.display = "none"
+    menu.style.display = "block"
+    closeMenu.style.display = "none"
 })
 
 let telegram = document.getElementById("telegram");

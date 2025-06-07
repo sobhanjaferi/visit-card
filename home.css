@@ -49,7 +49,7 @@ i{
     background-color: aquamarine;
     transition: 0.4s;
 }
-i:hover{
+#email:active , #telegram:active , #number:active{
     padding:15px;
     margin: 5px;
     background-color: aqua;
@@ -71,22 +71,24 @@ img{
     height: 100%;
     border-radius: 20px;
 }
-#menu{
+#menu , #close_menu{
     position: absolute;
     top: 10px;
     right: 10px;
     background-color: aqua;
-    box-shadow: 0px 0px 7px aqua;
+    box-shadow: 0px 0px 20px aqua;
     padding: 10px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.5s;
     z-index: 1;
 }
+#close_menu{
+    padding: 10px 13px;
+    display: none;
+}
 #menu:hover{
     transform: rotate(-30deg);
-    top: 15px;
-    right: 15px;
 }
 .hover{
     background-color: rgba(0, 0, 0, 0.796);
