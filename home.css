@@ -28,11 +28,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fdcb6e;
+    color: aqua;
     margin-top: 60px;
 }
 #output_conection{
-    color: aqua;
+    color: #fdcb6e;
     font-size: 1.2em;
     position: absolute;
     bottom: 100px;
@@ -46,13 +46,13 @@ i{
     border-radius: 50px;
     cursor: pointer;
     border: 1px solid black;
-    background-color: aquamarine;
+    background-color: #fdcb6e;
     transition: 0.4s;
 }
 #email:active , #telegram:active , #number:active{
     padding:15px;
     margin: 5px;
-    background-color: aqua;
+    background-color: #de9000;
 }
 .container{
     margin-top: 50px;
@@ -75,8 +75,8 @@ img{
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: aqua;
-    box-shadow: 0px 0px 20px aqua;
+    background-color: #fdcb6e;
+    box-shadow: 0px 0px 20px #fdcb6e;
     padding: 10px;
     border-radius: 50px;
     cursor: pointer;
